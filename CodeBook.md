@@ -99,4 +99,4 @@ The variable correspond to the indicator of what given variable  got measured du
 
 ###Mean
 The variable corresponds to the mean of the measurements intra-group, which means that each measurement is the average value of the observations corresponding to one given variable for one given subject performing one given activity.
-* Numeric:[-0.99770: 0.97450]
+* Numeric:[-0.99770 : 0.97450]
