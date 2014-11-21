@@ -14,13 +14,14 @@ First thing I did, I assign the data that I shall use in R:
  * the features data with the name of each variable
  * and lastly the activity labels data
 
-each of this data is declared in R in different data frame so I can use it when needed.
+Each of this data is declared in R in different data frame so I can use it when needed.
 
 
 ###Part 1: Merges the training and the test sets to create one data set.
 we manipulate the different data sets using the cbind column to match the subject data to the measurements data 
     and to the a variable called group that indicates if the subject is in the train or test group (actually I
     initially thought that this variable will be useful but it was not the case for this assignment).
+
 We repeat this procedure for the test and train datasets.
 afterwards we consolidate the info using the rbind instruction to have the complete data set with subjects in both
   train and test groups.
