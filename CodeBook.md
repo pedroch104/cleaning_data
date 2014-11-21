@@ -1,5 +1,5 @@
 #CODEBOOK TIDY DATA
-###Our tidy data has 14220 obs. And 4 different variables:
+####Our tidy data has 14220 obs. And 4 different variables:
 
 ###Subject
 The variable correspond to the code of the subjects that have participated in this study. We have 30 different subjects each one enumerated 1 to 30. 
@@ -8,7 +8,7 @@ The variable correspond to the code of the subjects that have participated in th
 
 ###Activity
 The variable correspond to the activity that our subjects were experimenting in the moment of each measurement. This variable is a factor of 6 distinct values.
-        *1.	LAYING
+        * 1.	LAYING
         *2.	SITTING
         *3.	STANDING
         *4.	WALKING
