@@ -64,10 +64,9 @@ We use then the colnames function to assign the wanted labels
 
 The first thing we need to do is to drop the group variable as it holds none value for the assignment.
 
-Next we redimension the data set to hold one measurement per row.
-
+Next, redimension the data set to hold one measurement per row. 
 We can use on it the tapply function which will create a 3 level data set for each subject, for each activity and each             variable
 
-We redimension the data set for each row to hold one measurement using the melt function and we get the tidy data that the       assignment asks for.
+Next, redimension the data set for each row to hold one measurement using the melt function and we get the tidy data that the       assignment asks for.
 
 We then label the dataset and put an instruction to output the tidy dataset
