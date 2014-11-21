@@ -34,7 +34,7 @@ We bind the 2 arrays obtained with the functions and we will call it the mean-st
 But we do have one problem because we have 3 more variable in the raw data, if we need to keep first variable N°1 this         correspond to the 4th column. Hence we need to change the combined array by adding 3 to know with colums to keep.
 afterwards we can extract the info we need by subsetting only the columns that we have in the mean-standard-array +3.
 
-Note: I did had a little problem, because the meanFreq() values are also in my subsetted data frame, I was not sure if these were meant to be in it in the assignement so I kept it but I am not sure if I should had erase this variables.
+Note: I did had a little problem, because the meanFreq() values are also in my subsetted data frame, I am not sure if these were meant to be in the assignement so I kept them. But I am not sure if wheter I should had erased these variables.
 
 
 Part 3: Uses descriptive activity names to name the activities in the data set
