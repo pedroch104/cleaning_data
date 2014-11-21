@@ -17,6 +17,7 @@ First thing I did, I assign the data that I shall use in R:
 Each of this data is declared in R in different data frame so I can use them when it is needed.
 
 
+
 ###Part 1: Merges the training and the test sets to create one data set.
 We manipulate the different data sets using the cbind column to match the subject data to the measurements data 
     and to the a variable called group that indicates if the subject is in the train or test group (actually I
@@ -26,6 +27,7 @@ We repeat this procedure for the test and train datasets.
 
 Afterwards we consolidate the info using the rbind instruction to have the complete data set with subjects in both
   train and test groups.
+
 
 
 ###Part 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -45,9 +47,11 @@ Afterwards we can extract the info we need by subsetting only the columns that w
 ######Note: I did had a little problem, because the meanFreq() values are also in my subsetted data frame, I am not sure if these were meant to be in the assignment so I kept them. But I am not sure if whether I should had erased these variables.
 
 
+
 ###Part 3: Uses descriptive activity names to name the activities in the data set
 We replace the column activity on subset1 using the value on the activity_labels array and the function match which 
   works like a VLOOKUP in EXCEL
+
 
 
 ###Part 4: Appropriately labels the data set with descriptive variable names. 
