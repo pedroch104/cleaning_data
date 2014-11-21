@@ -7,7 +7,7 @@ The variable correspond to the code of the subjects that have participated in th
 
 ###Activity
 The variable correspond to the activity that our subjects were experimenting in the moment of each measurement. This variable is a factor of 6 distinct values.
-        * 1.	LAYING
+* 1.LAYING
         * 2.	SITTING
         * 3.	STANDING
         * 4.	WALKING
