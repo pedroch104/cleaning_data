@@ -13,6 +13,7 @@ First thing I did, I assign the data that I shall use in R:
  * the train subjects data
  * the features data with the name of each variable
  * and lastly the activity labels data
+
 each of this data is declared in R in different data frame so I can use it when needed.
 
 
