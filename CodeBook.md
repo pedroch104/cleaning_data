@@ -3,7 +3,7 @@
 
 ###Subject
 The variable correspond to the code of the subjects that have participated in this study. We have 30 different subjects each one enumerated 1 to 30. 
-* List of integers 1-30
+* List of integers: 1-30
 
 ###Activity
 The variable correspond to the activity that our subjects were experimenting in the moment of each measurement. This variable is a factor of 6 distinct values.
