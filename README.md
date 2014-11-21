@@ -14,7 +14,7 @@ First thing I did, I assign the data that I shall use in R:
  * the features data with the name of each variable
  * and lastly the activity labels data
 
-Each of this data is declared in R in different data frame so I can use it when needed.
+Each of this data is declared in R in different data frame so I can use them when it is needed.
 
 
 ###Part 1: Merges the training and the test sets to create one data set.
