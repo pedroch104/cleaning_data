@@ -7,12 +7,14 @@ The objective of this file is to explain the different steps in my R script
 It is the first time I write such a file so please understand if my structure is atypical.
 We will explain in detail each point of the asignature and how I did the work in R
 
+
 First thing I did, I assign the data that I shall use in R:
       the test subjects data
       the train subjects data
       the features data with the name of each variable
       and lastly the activity labels data
 each of this data is declared in R in different data frame so I can use it when needed.
+
 
 Part 1: Merges the training and the test sets to create one data set.
 we manipulate the diferent data sets using the cbind column to match the subject data to the measurements data 
@@ -39,13 +41,18 @@ Part 3: Uses descriptive activity names to name the activities in the data set
 We replace the column activity on subset1 using the value on the activity_labels array and the function match which 
   works like a VLOOKUP in EXCEL
 
+
 Part 4: Appropriately labels the data set with descriptive variable names. 
 we create and array using the info from the part two which will have the names of all the colums in a single row.
 we use then the colnames function to assign the wanted labels
 
-STEP N°5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each   activity and each subject.
-using the subset data the first thing we need to do is to drop the group variable as it holds none value for the asignement.
 
+Part 5: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each  activity and each subject.
+The first thing we need to do is to drop the group variable as it holds none value for the asignement.
+Next we redimension the data set to hold one measurement per row.
+We can use on it the tapply function which will create a 3 level data set for each subject, for each activity and each             variable
+We redimension the data set for each row to hold one measurement using the melt function and we get the tidy data that the       assignement asks for.
+we then label the dataset and put an instruction to ouput the tidy dataset
 
 
   
