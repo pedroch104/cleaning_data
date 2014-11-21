@@ -4,8 +4,8 @@ cleaning_data
 #####Github repository for course assignment Getting and Cleaning Data
 
 ######The objective of this file is to explain the different steps in my R script
-######It is the first time I write such a file so please understand if my structure is atypical.
-######We will explain in detail each point of the assignment and how I did the work in R
+It is the first time I write such a file so please understand if my structure is atypical.
+We will explain in detail each point of the assignment and how I did the work in R
 
 
 First thing I did, I assign the data that I shall use in R:
