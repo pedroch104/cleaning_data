@@ -5,7 +5,7 @@
 The variable correspond to the code of the subjects that have participated in this study. We have 30 different subjects each one enumerated 1 to 30. 
 	* List of integers 1-30.
 
-* conj (conjs to [])
+* List of integers 1-30
 * map
 * mapcat
 * filter
