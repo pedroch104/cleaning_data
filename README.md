@@ -55,7 +55,7 @@ We replace the column activity on subset1 using the value on the activity_labels
 
 
 ###Part 4: Appropriately labels the data set with descriptive variable names. 
-We create and array using the info from the part two which will have the names of all the columns in a single row.
+We create an array using the info from the part two which will have the names of all the columns in a single row.
 
 We use then the colnames function to assign the wanted labels
 
