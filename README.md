@@ -9,10 +9,10 @@ We will explain in detail each point of the assignment and how I did the work in
 
 
 First thing I did, I assign the data that I shall use in R:
- * the test subjects data
- * the train subjects data
- * the features data with the name of each variable
- * and lastly the activity labels data
+ * The test subjects data (the datasets with the measurements, the subject´s id, and the activity)
+ * The train subjects data (same as before)
+ * The features data with the name of each variable
+ * And lastly the activity labels data
 
 Each of this data is declared in R in different data frame so I can use them when it is needed.
 
