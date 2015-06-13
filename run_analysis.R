@@ -19,6 +19,8 @@ setwd(mother)
 features<-read.table("./features.txt")
 activity_labels<-read.table("./activity_labels.txt")
 
+library(dplyr)
+library(reshape2)
 
 ##STEP N°1: 
 ##Merging the training and the test sets to create one data set.
